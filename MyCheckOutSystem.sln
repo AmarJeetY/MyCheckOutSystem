@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCheckOutSystem", "MyCheckOutSystem\OnlineCheckOutSystem.csproj", "{659B0D38-CF5E-4136-8ACB-01FC1CC38E82}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCheckOutSystem.Tests", "MyCheckOutSystem.Tests\OnlineCheckOutSystem.Tests.csproj", "{97FE02E8-2D6C-4823-8AFC-354C658C6933}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F16D7162-F871-40CA-8BFD-3830B8A21059}"
+	ProjectSection(SolutionItems) = preProject
+		JenkinsFile.yml = JenkinsFile.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
