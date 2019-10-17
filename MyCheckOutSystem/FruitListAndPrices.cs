@@ -2,7 +2,7 @@
 
 namespace MyCheckOutSystem
 {
-    class FruitListAndPrices
+    internal class FruitListAndPrices
     {
         public IDictionary<string, int> FruitPrices = new Dictionary<string, int>
         {

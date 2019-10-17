@@ -4,25 +4,25 @@ namespace MyCheckOutSystem
 {
     public class CartOperations
     {
-        public Dictionary<string, int> Mycart;
+        public Dictionary<string, int> MyCart;
         public CartOperations(Dictionary<string, int> cart)
         {
-            Mycart = cart;
+            MyCart = cart;
         }
         
-        public void AddItem(string itemname, int itemquantity)
+        public void AddItem(string itemName, int itemQuantity)
         {
-            Mycart.Add(itemname,itemquantity);
+            MyCart.Add(itemName,itemQuantity);
         }
 
-        public void UpdateItem(string itemname, int itemquantity)
+        public void UpdateItem(string itemName, int itemQuantity)
         {
-            Mycart[itemname] += itemquantity;
+            MyCart[itemName] += itemQuantity;
         }
 
-        public void DeleteItem(string itemname, int itemquantity)
+        public void DeleteItem(string itemName, int itemQuantity)
         {
-            Mycart.Remove(itemname);
+            MyCart.Remove(itemName);
         }
     }
 }
